@@ -5,7 +5,7 @@ class man {
         this.hairCount = hair;
         
 
-        this.init();
+    this.init();
     }
 
     init() {
@@ -16,14 +16,15 @@ class man {
     }
 
     kiekMetu(){
-        return console.log(`Šiam žmogui yra ${this.age} metu`);
+        return console.log(`Šiam žmogui yra ${this.ageCount} metu`);
 
     }
 
     kokiosSpalvosPlaukai(){
-        return console.log(`Sio zmogaus plaukai yra ${this.hair}`)
+        return console.log(`Sio zmogaus plaukai yra ${this.hairCount}`)
     }
 
 }
 
 const pirmasZmogus = new man('vyras', 30, 'rudi')
+const antrasZmogus = new man('moteris', 20, 'juodi')
